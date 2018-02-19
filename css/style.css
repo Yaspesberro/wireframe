@@ -30,6 +30,33 @@ a {
 }
 
 main {
-  width: 960px;
+  width: 990px;
+  height: 375;
   margin: 30px auto;
+  
+}
+
+/*
+main ul {
+  margin: 30px auto;
+  padding: 0;
+  list-style: none;
+}
+
+main ul img {
+  display: inline-block;
+  text-align: center;
+}
+*/
+
+main ul {
+  margin-top: 25px;
+  list-style: none;
+  padding: 0;
+}
+
+main ul li {
+  display: inline-block;
+  margin-right: 25px;
+
 }
