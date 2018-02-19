@@ -29,6 +29,7 @@ a {
   color: #888;
 }
 
+/*
 main {
   width: 990px;
   height: 375;
@@ -84,4 +85,72 @@ button {
   padding-bottom: 15px;
   padding-right: 90px;
   padding-left: 90px;
+}
+*/
+
+main {
+  width: 960px;
+  margin: 30px auto;
+}
+
+main ul {
+  padding-left: 0px;
+ 
+}
+
+main li {
+  list-style: none;
+  float: left;
+  margin-top: 30px;
+}
+
+main li:nth-child(2n) {
+  margin: 30px 30px 30px 30px;
+}
+
+section img {
+  float: left;
+}
+
+section div {
+  width: calc(50% - 30px);
+  float: left;
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+
+section h2 {
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+section p {
+  font-style: italic;
+  height: 325px;
+  overflow: auto;
+  line-height: 20px;
+}
+
+button {
+  border: none;
+  padding: 10px 30px;
+  background: #000;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 18px;
+  margin-top: 15px;
+
+  /*Pointer: hand pointer, trans: hover timing*/
+  cursor: pointer;
+  transition: 350ms;
+}
+
+button:hover {
+  background: #007900;
+  color: rgb(0, 255, 55);
+}
+
+footer {
+  clear: both;
 }
