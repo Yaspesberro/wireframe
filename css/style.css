@@ -33,24 +33,12 @@ main {
   width: 990px;
   height: 375;
   margin: 30px auto;
-  
-}
 
-/*
-main ul {
-  margin: 30px auto;
-  padding: 0;
-  list-style: none;
 }
-
-main ul img {
-  display: inline-block;
-  text-align: center;
-}
-*/
 
 main ul {
   margin-top: 25px;
+  margin-bottom: 25px;
   list-style: none;
   padding: 0;
 }
@@ -58,5 +46,42 @@ main ul {
 main ul li {
   display: inline-block;
   margin-right: 25px;
+}
 
+section {
+  width: 960px;
+}
+
+.FixedContainer {
+  float: right;
+  height: 400px;
+  width: 450px; 
+  padding: 3px; 
+}
+
+.FixedContainer h2 {
+  margin: 0%;
+}
+
+.Content
+{
+  height:300px;
+  overflow: auto;
+  background:#fff;
+  margin-bottom: 12px;
+}
+
+#pic {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+button {
+  font-size: 20px;
+  float: left;
+  margin-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 90px;
+  padding-left: 90px;
 }
